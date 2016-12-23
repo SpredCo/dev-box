@@ -1,0 +1,24 @@
+{
+  "apps" : [{
+    "name"        : "rest-api",
+    "script"      : "index.js",
+    "args"        : [],
+    "node_args"   : "--harmony",
+    "merge_logs"  : true,
+    "cwd"         : "/vagrant/rest-service/",
+    "env": {
+      "NODE_ENV": "production",
+      "SENDGRID_KEY": "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"
+    }
+  },{
+    "name"        : "media-service",
+    "script"      : "/src/index.js",
+    "args"        : [],
+    "node_args"   : "--harmony",
+    "merge_logs"  : true,
+    "cwd"         : "/vagrant/spred-media-server/",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}
