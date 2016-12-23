@@ -12,7 +12,7 @@
     }
   },{
     "name"        : "media-service",
-    "script"      : "/src/index.js",
+    "script"      : "src/index.js",
     "args"        : [],
     "node_args"   : "--harmony",
     "merge_logs"  : true,
