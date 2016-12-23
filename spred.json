@@ -20,5 +20,16 @@
     "env": {
       "NODE_ENV": "production"
     }
+  },{
+    "name"        : "web-app",
+    "script"      : "bundler",
+    "exec_interpreter": "bash",
+    "exec_mode"  : "fork_mode",
+    "args"        : ["exec", "./start.sh", "-p", "8080"],
+    "merge_logs"  : true,
+    "cwd"         : "/vagrant/web-app",
+    "env": {
+      "NODE_ENV": "production"
+    }
   }]
 }
