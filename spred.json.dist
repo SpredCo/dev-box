@@ -37,7 +37,8 @@
       "API_SCHEME": "",
       "API_URL": "",
       "WEB_SSL_KEY": "",
-      "WEB_SSL_CERT": ""
+      "WEB_SSL_CERT": "",
+      "RACK_ENV": "production"
     }
   }]
 }
