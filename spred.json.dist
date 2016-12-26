@@ -29,7 +29,15 @@
     "merge_logs"  : true,
     "cwd"         : "/vagrant/web-app/",
     "env": {
-      "NODE_ENV": "production"
+      "ALGOLIA_APP_ID": "",
+      "ALGOLIA_READ_KEY": "",
+      "WEB_CLIENT_ID": "",
+      "WEB_CLIENT_SECRET": "",
+      "WEB_PORT": "",
+      "API_SCHEME": "",
+      "API_URL": "",
+      "WEB_SSL_KEY": "",
+      "WEB_SSL_CERT": ""
     }
   }]
 }
