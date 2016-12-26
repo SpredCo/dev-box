@@ -19,6 +19,8 @@ wget -O - http://ubuntu.kurento.org/kurento.gpg.key | apt-key add -
 apt-get update
 apt-get install -y nodejs mongodb-org git kurento-media-server-6.0 build-essential
 
+npm install -g pm2
+
 #REST API
 cd /vagrant
 git clone git@github.com:SpredCo/rest-service.git
