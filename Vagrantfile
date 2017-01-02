@@ -36,7 +36,7 @@ Vagrant.configure(2) do |config|
       node.vm.network "forwarded_port", guest: 22, host: 8022 #SSH
 
 
-      node.hostmanager.aliases = %w(spred.tv api.spred.tv login.spred.tv dev.spred.tv media.spred.tv)
+      node.hostmanager.aliases = %w(spred.tv api.spred.tv login.spred.tv dev.spred.tv media.spred.tv blog.spred.tv)
   end
 
   config.vm.provider "virtualbox" do |v|
