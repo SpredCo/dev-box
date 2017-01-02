@@ -39,6 +39,25 @@
       "WEB_SSL_KEY": "",
       "WEB_SSL_CERT": "",
       "RACK_ENV": "production"
-    }
+    },{
+      "name"        : "blog",
+      "script"      : "bundler",
+      "exec_interpreter": "ruby",
+      "exec_mode"  : "fork_mode",
+      "args"        : "exec jekyll serve --port 8081",
+      "merge_logs"  : true,
+      "cwd"         : "/vagrant/blog/",
+      "env": {
+        "ALGOLIA_APP_ID": "",
+        "ALGOLIA_READ_KEY": "",
+        "WEB_CLIENT_ID": "",
+        "WEB_CLIENT_SECRET": "",
+        "WEB_PORT": "",
+        "API_SCHEME": "",
+        "API_URL": "",
+        "WEB_SSL_KEY": "",
+        "WEB_SSL_CERT": "",
+        "RACK_ENV": "production"
+      }
   }]
 }

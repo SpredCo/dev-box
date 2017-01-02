@@ -32,6 +32,7 @@ Vagrant.configure(2) do |config|
       node.vm.network "forwarded_port", guest: 3000, host: 3000 #Rest API
       node.vm.network "forwarded_port", guest: 3030, host: 3030 #MediaService
       node.vm.network "forwarded_port", guest: 8080, host: 9080 #WebApp
+      node.vm.network "forwarded_port", guest: 8081, host: 8081 #Blog
       node.vm.network "forwarded_port", guest: 22, host: 8022 #SSH
 
 
