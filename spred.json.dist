@@ -44,7 +44,7 @@
       "script"      : "bundler",
       "exec_interpreter": "ruby",
       "exec_mode"  : "fork_mode",
-      "args"        : "exec jekyll serve --port 8081",
+      "args"        : "exec jekyll serve --port 8081 --host 0.0.0.0",
       "merge_logs"  : true,
       "cwd"         : "/vagrant/blog/",
       "env": {
